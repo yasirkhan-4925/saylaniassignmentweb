@@ -1,0 +1,92 @@
+*{
+     box-sizing: border-box;
+     margin:0;
+     padding:0;
+}
+
+.mainheading{
+    text-align: center;
+    font-size: 4vw;
+    
+    padding:2px;
+    background-color: #d63031;
+    color: white;
+}
+
+.bio{
+    text-align: center;
+    font-size: 2vw;
+   
+    padding:5px;
+    background-color: #d63031;
+    color: white;
+}
+
+.row1{
+ 
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+
+    margin-top: 100px;
+    
+}
+
+.assignmentno{
+  
+    padding: 40px;
+    margin-left: 5px;
+    width: 30%;
+    height: 200px;
+    background-color: #E91E63;
+    border-radius: 25px;
+
+   
+}
+
+.row1 .assignmentno #a1 p{
+    
+   
+   
+    text-align: center;
+    font-size: 2vw;
+    margin-top: 15px;
+
+  
+   
+    
+}
+
+.row1 .assignmentno #a2 p{
+    
+   
+   
+  
+    text-align: center;
+    font-size: 2vw;
+    margin-top: 15px;
+ 
+    
+}
+
+.row1 .assignmentno #a3 p{
+    
+    text-align: center;
+    font-size: 2vw;
+   
+    margin-top: 15px;
+   
+  
+  
+}
+
+.assignmentno a{
+    text-decoration: none;
+   color: white;
+}
+
+
+
+
+
+

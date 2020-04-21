@@ -1,0 +1,25 @@
+#header{
+    text-align: center;
+}
+
+#header h2{
+    color:#6b5acd;
+}
+
+.registrationform .table{
+    background-color:#6b5acd;
+    color: white;
+    width: 70%;
+    
+    
+    
+}
+
+
+.nextpage{
+    text-align: center;
+}
+
+.nextpage h2{
+    color: blueviolet;
+}
