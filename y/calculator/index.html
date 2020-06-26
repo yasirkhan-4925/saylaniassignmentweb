@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap.css">
+</head>
+<body>
+
+
+     <div class="container ">
+         <div class="row bg-success row1">
+             <div class="col-12">
+
+                <h1 class="text-light text-center">SIMPLE CALCULATOR APP</h1>
+
+             </div>
+         </div>
+     </div>
+
+
+    <div class="container ctn2 bg-white">
+
+        <div class="row"> 
+            <div class="col-lg-3 bg-white"></div>
+            <div class="col-lg-6 bg-light">
+               
+                <div class="row bg-white">
+                    <div class="col-lg-12">
+                        <input id="inputField" class="input text-success" type="text">
+                    </div>
+                </div>
+
+                <div class="row rowcss bg-white">
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-3 ">  <button onclick="getNumber('7')" type="button" class="btn btn-outline-success">7</button></div>
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-3 "><button onclick="getNumber('8')"   type="button" class="btn btn-outline-success">8</button></div>
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-3 "><button onclick="getNumber('9')" type="button" class="btn btn-outline-success">9</button></div>
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-3 "><button onclick="getNumber('/')" type="button" class="btn btn-outline-success">/</button></div>
+                </div>
+                <div class="row rowcss bg-white">
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-3"><button onclick="getNumber('4')"  type="button" class="btn btn-outline-success">4</button></div>
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-3"><button onclick="getNumber('5')" type="button" class="btn btn-outline-success">5</button></div>
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-3"><button onclick="getNumber('6')" type="button" class="btn btn-outline-success">6</button></div>
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-3"><button onclick="getNumber('*')" type="button" class="btn btn-outline-success">X</button></div>
+                </div>
+                <div class="row rowcss bg-white">
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-3"><button onclick="getNumber('1')"  type="button" class="btn btn-outline-success">1</button></div>
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-3"><button onclick="getNumber('2')" type="button" class="btn btn-outline-success">2</button></div>
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-3"><button onclick="getNumber('3')" type="button" class="btn btn-outline-success">3</button></div>
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-3"><button onclick="getNumber('-')" type="button" class="btn btn-outline-success">-</button></div>
+                </div>
+                <div class="row rowcss  bg-white">
+
+
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-3"><button onclick="calc()" type="button" class="btn btn-outline-success">=</button></div>
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-3"><button onclick="cln()" type="button" class="btn btn-outline-success">C</button></div>
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-3"><button onclick="getNumber('0')" type="button" class="btn btn-outline-success">0</button></div>
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-3"><button onclick="getNumber('+')" type="button" class="btn btn-outline-success">+</button></div>
+                    
+                   
+                    
+                </div>
+            </div>
+            <div class="col-lg-3 bg-white "></div>
+        </div>
+
+    </div>
+</body>
+
+<script src="app.js"></script>
+</html>
